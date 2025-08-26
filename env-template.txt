@@ -1,0 +1,40 @@
+# Application
+NODE_ENV=development
+PORT=5000
+APP_NAME="Accounting System"
+APP_URL=http://localhost:3000
+
+# Database
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=accounting_system
+DB_USERNAME=root
+DB_PASSWORD=
+DB_PREFIX=ak_
+
+# Database Sync (set to 'true' only when you want to sync/update database schema)
+SYNC_DB=true
+
+# JWT
+JWT_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzU2MTg5Nzk4LCJleHAiOjE3NTY3OTQ1OTh9.vxp-KbUgzmHnvjaeKjSsfI34fQ5r5XEa-QjPlWoyXWs
+JWT_EXPIRES_IN=7d
+
+# Email (Optional - for password resets, etc.)
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_FROM_ADDRESS=noreply@accountingsystem.com
+MAIL_FROM_NAME="Accounting System"
+
+# File Upload
+MAX_FILE_SIZE=10485760
+
+# Rate Limiting
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+
+# Redis (Optional)
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+REDIS_PASSWORD=
